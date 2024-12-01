@@ -16,7 +16,7 @@ def upscale_image_endpoint():
 
         buf = image_service.process_image(file, 'fsrcnn')
 
-        return send_file(buf, mimetype='image/jpg', as_attachment=True, download_name='imagen_superresolucionada.jpg'), 200
+        return send_file(buf, mimetype='image/jpg', as_attachment=True), 200
 
     except ValueError as e:
         return jsonify({"error": str(e)}), 400

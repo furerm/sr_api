@@ -14,5 +14,13 @@ Este taller está dirigido a estudiantes, profesionales IT y cualquier interesad
 - Mauro Furer - [Email](mailto:mauro.furer@mi.unc.edu.ar)
 - Laura Díaz
 
+---
+
+## NOTICE
+
+Este proyecto utiliza modelos de super resolución que han sido descargados de [FSRCNN_Tensorflow](https://github.com/Saafke/FSRCNN_Tensorflow/tree/master/models). Los modelos y el código asociado están bajo la Licencia Apache 2.0, cuyos términos permiten su uso, modificación y distribución.
+
+---
+
 
 
