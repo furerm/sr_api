@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sr-api"
+version = "0.1.0"
+description = "Workshop jiau2020 - MVP of a REST API for generating super-resolution images from low-resolution images using AI."
+authors = ["Mauro Furer <mauro.furer@mi.unc.edu.ar>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.0"
+opencv-contrib-python = ">=4.5.5"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
