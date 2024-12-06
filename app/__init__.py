@@ -1,5 +1,3 @@
-import os
-import cv2
 from flask import Flask
 from app.controllers.image_controller import image_controller
 
